@@ -10,6 +10,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { SidebarComponent } from './dashboard/sidebar/sidebar.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SidebarComponent } from './dashboard/sidebar/sidebar.component';
     LoginComponent,
     SignupComponent,
     DashboardComponent,
-    SidebarComponent
+    SidebarComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,FormsModule,AppRoutingModule

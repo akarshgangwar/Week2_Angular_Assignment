@@ -1,9 +1,4 @@
-.dashboard__main {
-    margin-left: auto;
-    margin-right: 0px;
-    width: 80vw;
-    background-color: cyan;
-}
+/* 
 
 .dashboard {
     height: 100vh;
@@ -15,7 +10,7 @@
 }
 
 .dashboard__sidebar {
-    /* flex: 0.2; */
+    
     width: 20vw;
     position: fixed;
     bottom: 0;
@@ -42,12 +37,17 @@
     margin-top: 10px;
     background: #EFEFEF;
 border-radius: 12px;
+} */
+.dashboard__main {
+    margin-left: auto;
+    margin-right: 0px;
+    width: 80vw;
+    /* background-color: cyan; */
 }
-
 .dashboard_main_header
 {
     height: 200px;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-top: 0;
     padding-left: 70px;
 }
@@ -85,4 +85,12 @@ line-height: 33px;
 text-align: center;
 margin: 4px;
 color: rgba(0, 0, 0, 0.69);
+}
+
+
+.food-item-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap:68px;
+    justify-content: center;
 }

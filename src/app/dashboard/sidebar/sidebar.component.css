@@ -1,0 +1,47 @@
+
+.dashboard {
+    height: 100vh;
+    display: flex;
+}
+
+.dashboard_sidebar-fixed {
+    position: fixed;
+}
+
+.dashboard__sidebar {
+    
+    width: 20vw;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    background: #FBFBFB;
+    border-radius: 20px;}
+
+
+
+.dashboard__sidebar-head {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard__sidebar-options {
+    padding: 0em 0.7em;
+}
+
+.dashboard__sidebar-options-content {
+    padding: 0.8em;
+   
+    margin-top: 10px;
+    background: #EFEFEF;
+border-radius: 12px;
+} 
+.logo-section{
+    display: flex;
+    gap:19px;
+}
+
+img{
+    padding-right: 16px;
+}

@@ -1,39 +1,29 @@
 <div class="dashboard">
-  <div class="dashboard__sidebar"></div>
-  <div class="dashboard__sidebar">
-    <div class="dashboard__sidebar-head">
-      <div class="">
-        <img src="../../assets/Group12.svg" alt="logo" />
-        <h2>Lillies</h2>
-      </div>
-    </div>
-    <div class="dashboard__sidebar-options">
-      <div class="dashboard__sidebar-options-content">
-        <img src="" alt="" />
-        <span>Dashboard</span>
-      </div>
-      <div class="dashboard__sidebar-options-content">
-        <img src="" alt="" />
-        <span>Your Profile</span>
-      </div>
-      <div class="dashboard__sidebar-options-content">
-        <img src="" alt="" />
-        <span>Your cart</span>
-      </div>
-      <div class="dashboard__sidebar-options-content">
-        <img src="" alt="" />
-        <span>Orders</span>
-      </div>
-    </div>
-  </div>
+  <!-- <div class="dashboard__sidebar"></div> -->
+<app-sidebar></app-sidebar>
   <div class="dashboard__main">
     <div class="dashboard_main_header">
+      <h2 id="user_greet">Good Morning , Akarsh</h2>
+      <p class="below_greet_description">
+        What delicious meal are you craving today?
+      </p>
+    </div>
 
-        <h2 id="user_greet">Good Morning , Akarsh</h2>
-        <p  class="below_greet_description">What delicious meal are you craving today?</p>
+    <div class="dashboard_food_area">
+
+      <div class="food-item-card">
+        <app-food-item></app-food-item>
+        <app-food-item></app-food-item>
+        <app-food-item></app-food-item>
+        <app-food-item></app-food-item>
+        <app-food-item></app-food-item>
+        <app-food-item></app-food-item>
+      </div>
+      
+
+
 
 
     </div>
   </div>
 </div>
-<!-- <div class="dashboard__main">Main  content</div> -->
