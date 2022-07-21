@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.form-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.image{
+    background:url("../../images/signup.svg");
+    background-size: cover;
+    opacity: 0.8    ;
+}
+
+.signup-heading {
+
+    
+    /* left: 985px;
+    top: 204px; */
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    /* identical to box height, or 122% */
+    
+    
+    color: #00302E;
+    
+
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-input {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.signup-input-field {
+    padding: 0.1em 1em;
+    margin-top: 20px;
+    width: 488px;
+    height:71px;
+    border-radius: 5px;
+
+    width: 488px;
+height: 71px;
+
+
+background: rgba(255, 255, 255, 0.83);
+border: 1px solid rgba(251, 221, 187, 0.51);
+border-radius: 5px;
+}
+
+.signup-button {
+    padding: 0.1em 1em;
+    margin-top: 20px;
+    width: 488px;
+    height:71px;
+
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 40px;
+gap: 10px;
+
+width: 488px;
+height: 60px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #FBDDBB;
+background: #00302E;
+border-radius: 5px;
+}
+
+.signup-terms {
+    font-size: 0.8rem;
+    margin-top: 15px;
+
+
+    /* position: absolute; */
+width: 227px;
+height: 33px;
+/* left: 978px;
+top: 724px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 33px;
+/* identical to box height, or 236% */
+
+text-align: right;
+
+color: rgba(0, 48, 46, 0.91);
+
+}
