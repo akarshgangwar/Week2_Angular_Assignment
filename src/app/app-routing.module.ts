@@ -5,7 +5,9 @@ import { CheckoutComponent } from "./checkout/checkout.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { FoodItemDescriptionComponent } from "./food-item-description/food-item-description.component";
 import { LoginComponent } from "./login/login.component";
+import { FoodCartComponent } from "./shared/food-cart/food-cart.component";
 import { SignupComponent } from "./signup/signup.component";
+import { YourCartComponent } from "./your-cart/your-cart.component";
 
 
 const appRoutes:Routes=[
@@ -15,6 +17,8 @@ const appRoutes:Routes=[
     {path:'dashboard',component:DashboardComponent},
     {path:'makepayment',component:CheckoutComponent},
     {path:'fooddetail',component:FoodItemDescriptionComponent},
+    {path:'yourCart',component:YourCartComponent},
+
 
 
 

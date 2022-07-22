@@ -13,6 +13,8 @@ import { SidebarComponent } from './dashboard/sidebar/sidebar.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { FoodItemService } from './services/food-item.service';
 import { FoodItemDescriptionComponent } from './food-item-description/food-item-description.component';
+import { FoodCartComponent } from './shared/food-cart/food-cart.component';
+import { YourCartComponent } from './your-cart/your-cart.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { FoodItemDescriptionComponent } from './food-item-description/food-item-
     DashboardComponent,
     SidebarComponent,
     CheckoutComponent,
-    FoodItemDescriptionComponent
+    FoodItemDescriptionComponent,
+    FoodCartComponent,
+    YourCartComponent
   ],
   imports: [
     BrowserModule,FormsModule,AppRoutingModule

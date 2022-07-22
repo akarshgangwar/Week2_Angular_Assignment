@@ -1,0 +1,39 @@
+.body{
+    margin-top: 80px;
+    position: absolute;
+width: 760px;
+height: 900px;
+left: 677px;
+top: 4px;
+}
+
+
+.imagesection{
+    display: flex;
+}
+
+.imagesectionpart{
+    display: flex;
+    align-items: center;
+    }
+
+.component{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 20px;
+}
+
+.element{
+    padding: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 33px;
+/* identical to box height, or 194% */
+
+
+color: #00302E;
+}
