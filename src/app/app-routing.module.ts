@@ -6,6 +6,7 @@ import { DashboardComponent } from "./dashboard/dashboard.component";
 import { FoodItemDescriptionComponent } from "./food-item-description/food-item-description.component";
 import { LoginComponent } from "./login/login.component";
 import { FoodCartComponent } from "./shared/food-cart/food-cart.component";
+import { ResuableFoodOrderComponent } from "./shared/resuable-food-order/resuable-food-order.component";
 import { SignupComponent } from "./signup/signup.component";
 import { YourCartComponent } from "./your-cart/your-cart.component";
 
@@ -19,6 +20,8 @@ const appRoutes:Routes=[
     {path:'fooddetail',component:FoodItemDescriptionComponent},
     {path:'yourCart',component:YourCartComponent},
     {path:'yourfood',component:FoodItemDescriptionComponent},
+    {path:'resuableFoodOders',component:ResuableFoodOrderComponent},
+
 
 
 
