@@ -8,13 +8,15 @@
         <div class="text-center unit-price">Unit Price</div>
         <div class="text-center sub-total">Sub-total</div>
       </div>
-     
+<!--      
       <app-food-cart></app-food-cart>
       <app-food-cart></app-food-cart>
 
       <app-food-cart></app-food-cart>
 
-      <app-food-cart></app-food-cart>
+      <app-food-cart></app-food-cart> -->
+      <app-food-cart
+        *ngFor="let item of cartListItem" [cartItemm]="item"></app-food-cart>
 
     </div>
   </div>
