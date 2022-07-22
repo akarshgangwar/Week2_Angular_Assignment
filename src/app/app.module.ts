@@ -15,6 +15,7 @@ import { FoodItemService } from './services/food-item.service';
 import { FoodItemDescriptionComponent } from './food-item-description/food-item-description.component';
 import { FoodCartComponent } from './shared/food-cart/food-cart.component';
 import { YourCartComponent } from './your-cart/your-cart.component';
+import { YourOrdersComponent } from './your-orders/your-orders.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { YourCartComponent } from './your-cart/your-cart.component';
     CheckoutComponent,
     FoodItemDescriptionComponent,
     FoodCartComponent,
-    YourCartComponent
+    YourCartComponent,
+    YourOrdersComponent
   ],
   imports: [
     BrowserModule,FormsModule,AppRoutingModule
