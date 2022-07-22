@@ -1,39 +1,35 @@
-.body{
-    margin-top: 80px;
-    position: absolute;
-width: 760px;
-height: 900px;
-left: 677px;
-top: 4px;
+
+.text-center{
+    text-align: center;
+    width: 100%;
 }
 
-
-.imagesection{
-    display: flex;
-}
-
-.imagesectionpart{
+.flex{
     display: flex;
     align-items: center;
-    }
-
-.component{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-    padding: 20px;
 }
 
-.element{
-    padding: 10px;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 33px;
-/* identical to box height, or 194% */
+.four-cols{
+    grid-template-columns: 50% 10% 20% 20%;
+}
 
+.grid{
+    display: grid;
+}
 
-color: #00302E;
+.items{
+    margin-top: 30px;
+}
+
+.dish-name{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #00302E;
+}
+
+.dish-quantity, .dish-price, .dish-total{
+    font-weight: 700;
+    font-size: 17px;
+    color: #00302E;
 }

@@ -18,7 +18,7 @@ const appRoutes:Routes=[
     {path:'makepayment',component:CheckoutComponent},
     {path:'fooddetail',component:FoodItemDescriptionComponent},
     {path:'yourCart',component:YourCartComponent},
-
+    {path:'yourfood',component:FoodItemDescriptionComponent},
 
 
 
