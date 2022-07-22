@@ -16,6 +16,7 @@ import { FoodItemDescriptionComponent } from './food-item-description/food-item-
 import { FoodCartComponent } from './shared/food-cart/food-cart.component';
 import { YourCartComponent } from './your-cart/your-cart.component';
 import { YourOrdersComponent } from './your-orders/your-orders.component';
+import { ResuableFoodOrderComponent } from './shared/resuable-food-order/resuable-food-order.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { YourOrdersComponent } from './your-orders/your-orders.component';
     FoodItemDescriptionComponent,
     FoodCartComponent,
     YourCartComponent,
-    YourOrdersComponent
+    YourOrdersComponent,
+    ResuableFoodOrderComponent
   ],
   imports: [
     BrowserModule,FormsModule,AppRoutingModule
