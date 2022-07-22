@@ -4,16 +4,10 @@
     grid-template-columns: 50% 10% 20% 20%;
     margin-top: 30px;
 }
-
-
-
 .details{
     text-align: center;
     width: 100%;
 }
-
-
-
 .box{
     font-weight: 700;
     font-size: 17px;

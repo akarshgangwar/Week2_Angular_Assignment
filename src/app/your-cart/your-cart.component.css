@@ -1,6 +1,6 @@
-.forfont{
+/* .forfont{
     font-family: 'Poppins';
-}
+} */
 
 .text-center{
     text-align: center;
@@ -8,6 +8,7 @@
 }
  
 .container{
+    font-family: 'Poppins';
     width: 50%;
     /* margin: 0 auto; */
     margin-left: auto;

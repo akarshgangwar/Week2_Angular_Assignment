@@ -9,6 +9,7 @@ import { FoodCartComponent } from "./shared/food-cart/food-cart.component";
 import { ResuableFoodOrderComponent } from "./shared/resuable-food-order/resuable-food-order.component";
 import { SignupComponent } from "./signup/signup.component";
 import { YourCartComponent } from "./your-cart/your-cart.component";
+import { YourOrdersComponent } from "./your-orders/your-orders.component";
 
 
 const appRoutes:Routes=[
@@ -20,7 +21,9 @@ const appRoutes:Routes=[
     {path:'fooddetail',component:FoodItemDescriptionComponent},
     {path:'yourCart',component:YourCartComponent},
     {path:'yourfood',component:FoodItemDescriptionComponent},
-    {path:'resuableFoodOders',component:ResuableFoodOrderComponent},
+    {path:'yourOders',component:YourOrdersComponent},
+    {path:'resuableyourOders',component:ResuableFoodOrderComponent},
+
 
 
 
