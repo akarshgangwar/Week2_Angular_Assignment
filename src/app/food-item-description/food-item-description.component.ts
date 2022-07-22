@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./food-item-description.component.css']
 })
 export class FoodItemDescriptionComponent implements OnInit {
-
+toggle2=false;
   constructor() { }
 
   ngOnInit(): void {

@@ -21,6 +21,7 @@
       <p class="quantity">3</p>
       <button class="increase">+</button>
     </div>
-    <button class="add-to-cart-button">Add to cart</button>
+    <button class="add-to-cart-button" (click)="toggle2=!toggle2">Add to cart</button>
   </div>
 </div>
+<app-your-cart *ngIf="toggle2"></app-your-cart>

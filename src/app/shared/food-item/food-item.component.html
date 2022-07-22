@@ -1,6 +1,6 @@
- <div (click)="toggle=!toggle" class="food-item-card">
+ <div  class="food-item-card">
 
-    <img src="{{foodItem.path}}">
+    <img (click)="toggle=!toggle" src="{{foodItem.path}}">
     <p class="item-name">{{foodItem.name}}</p>
     <div class="food-description">{{foodItem.description }}</div>
     <div class="food-item-card-bottom">
@@ -11,3 +11,4 @@
 </div> 
 
 <app-food-item-description *ngIf="toggle"></app-food-item-description>
+<!-- <app-food-cart></app-food-cart> -->

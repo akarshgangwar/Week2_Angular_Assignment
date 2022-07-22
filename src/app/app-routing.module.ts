@@ -13,7 +13,7 @@ import { YourOrdersComponent } from "./your-orders/your-orders.component";
 
 
 const appRoutes:Routes=[
-    {path:'', component:AppComponent,pathMatch:'full'}, //redirected
+    {path:'', redirectTo:'signup',pathMatch:'full'},, //redirected
     {path:'signup',component:SignupComponent},
     {path:'login',component:LoginComponent},
     {path:'dashboard',component:DashboardComponent},

@@ -1,4 +1,4 @@
-
+<!-- 
 <div class="container ">
     <div class="">Your Cart</div>
     <div class="items-container">
@@ -8,15 +8,32 @@
         <div class="text-center unit-price">Unit Price</div>
         <div class="text-center sub-total">Sub-total</div>
       </div>
-<!--      
-      <app-food-cart></app-food-cart>
-      <app-food-cart></app-food-cart>
 
-      <app-food-cart></app-food-cart>
-
-      <app-food-cart></app-food-cart> -->
       <app-food-cart
         *ngFor="let item of cartListItem" [cartItemm]="item"></app-food-cart>
 
     </div>
   </div>
+
+ -->
+ <div class="container ">
+  <div class="">Your Cart</div>
+  <div class="items-container">
+    <div class="fields grid four-cols">
+      <div class="item">Item</div>
+      <div class="text-center quantity">Qty</div>
+      <div class="text-center unit-price">Unit Price</div>
+      <div class="text-center sub-total">Sub-total</div>
+    </div>
+<!--      
+    <app-food-cart></app-food-cart>
+    <app-food-cart></app-food-cart>
+    <app-food-cart></app-food-cart>
+    <app-food-cart></app-food-cart> -->
+    <app-food-cart
+      *ngFor="let item of cartListItem" [cartItemm]="item"></app-food-cart>
+      <button class="makepayment-button" type="submit" (click)="toggle3=!toggle3 "> Make Payment</button>
+  </div>
+</div>
+
+<app-checkout *ngIf="toggle3"></app-checkout>
