@@ -7,10 +7,14 @@
         <div class="unit-price">Price</div>
         <div class="status">Status</div>
       </div>
+      <!-- <app-resuable-food-order></app-resuable-food-order>
       <app-resuable-food-order></app-resuable-food-order>
       <app-resuable-food-order></app-resuable-food-order>
-      <app-resuable-food-order></app-resuable-food-order>
-      <app-resuable-food-order></app-resuable-food-order>
+      <app-resuable-food-order></app-resuable-food-order> -->
+
+      <app-resuable-food-order    
+      *ngFor="let item of orderItemList"  [orderItems]="item"></app-resuable-food-order>
+      
 
     </div>
   </div>
