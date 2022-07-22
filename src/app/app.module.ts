@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SidebarComponent } from './dashboard/sidebar/sidebar.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { FoodItemService } from './services/food-item.service';
+import { FoodItemDescriptionComponent } from './food-item-description/food-item-description.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FoodItemService } from './services/food-item.service';
     SignupComponent,
     DashboardComponent,
     SidebarComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    FoodItemDescriptionComponent
   ],
   imports: [
     BrowserModule,FormsModule,AppRoutingModule

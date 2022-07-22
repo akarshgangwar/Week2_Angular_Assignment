@@ -1,8 +1,81 @@
 .container{
+    margin-left: auto;
+    margin-right: 0;
+    height: 100vh;
+    width: 560px;
+/* height: 900px; */
+/* padding: 31px; */
 
-    width: 50vw;
-    border: 2px solid red;
-    height: 99vh;
-    
+}
+.checkout-form{
+    padding-top: 3em;
+    /* margin-left: 37px; */
+    /* border: 2px solid black; */
+}
 
+
+.checkout-form-heading{
+    margin-left: 37px;
+width: 84px;
+height: 33px;
+
+margin-bottom: 15px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 33px;
+/* identical to box height, or 194% */
+
+
+color: #00302E;
+}
+
+.checkout-form-input-field{
+/* position: absolute; */
+margin-top: 20px;
+width: 488px;
+height: 71px;
+left: 918px;
+top: 246px;
+padding-left: 25px;
+background: rgba(255, 255, 255, 0.83);
+border: 1px solid rgba(251, 221, 187, 0.51);
+border-radius: 5px;
+}
+.checkout-form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+
+}
+.payment-button{
+    width: 488px;
+height: 60px;
+/* left: 915px; */
+/* top: 779px; */
+
+background: #00302E;
+/* 
+margin-top: 108px;
+margin-bottom:56px ; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 27px;
+/* identical to box height, or 208% */
+
+text-align: center;
+margin-top: auto;
+margin-bottom: 2px;
+color: #F3C294;
+}
+
+.payment-container {
+    text-align: center;
+    margin-top: 35px;
 }
