@@ -1,4 +1,15 @@
+.container-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  opacity: 0.25;
+}
+
 .container {
+  position: absolute;
+  top:0;
+  right: 0;
+  background-color: #fbfbfb;
     height: 100vh;
     display: flex;
     flex-direction: column;

@@ -1,11 +1,13 @@
- <div class="food-item-card">
+ <div (click)="toggle=!toggle" class="food-item-card">
 
     <img src="{{foodItem.path}}">
     <p class="item-name">{{foodItem.name}}</p>
     <div class="food-description">{{foodItem.description }}</div>
     <div class="food-item-card-bottom">
         <p ><b>{{foodItem.price}}</b></p>
-        <p class="cart-button">Add to cart</p>
+        <p class="cart-button" (click)="toggle2=!toggle2">Add to cart</p>
     </div>
 
 </div> 
+
+<app-food-item-description *ngIf="toggle"></app-food-item-description>
