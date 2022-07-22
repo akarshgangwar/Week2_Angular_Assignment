@@ -7,7 +7,7 @@ import { SignupComponent } from "./signup/signup.component";
 
 
 const appRoutes:Routes=[
-    {path:'', component:AppComponent,pathMatch:'full'},
+    {path:'', component:AppComponent,pathMatch:'full'}, //redirected
     {path:'signup',component:SignupComponent},
     {path:'login',component:LoginComponent},
     {path:'dashboard',component:DashboardComponent},

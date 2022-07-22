@@ -18,21 +18,35 @@ export class FoodItemService {
     {
         name:'Mggi',
         description:'The in-house pasta and chicken by chef Moose',
-        path:'../../../assets/img/food-item.svg',
+        path:'../../../assets/img/fooditem2.svg',
         price:'N 5000.00',
         totalItemsAvailable:10
     },
     {
         name:' Pasta',
         description:'The in-house pasta and chicken by chef Moose',
-        path:'../../../assets/img/food-item.svg',
+        path:'../../../assets/img/fooditem3.svg',
         price:'N 1000.00',
         totalItemsAvailable:10
     },
     {
         name:'Sti fry Pasta',
         description:'The in-house pasta and chicken by chef Moose',
-        path:'../../../assets/img/food-item.svg',
+        path:'../../../assets/img/fooditem4.svg',
+        price:'N 1000.00',
+        totalItemsAvailable:10
+    },
+    {
+        name:'Sti fry Pasta',
+        description:'The in-house pasta and chicken by chef Moose',
+        path:'../../../assets/img/fooditem3.svg',
+        price:'N 1000.00',
+        totalItemsAvailable:10
+    },
+    {
+        name:'Sti fry Pasta',
+        description:'The in-house pasta and chicken by chef Moose',
+        path:'../../../assets/img/fooditem2.svg',
         price:'N 1000.00',
         totalItemsAvailable:10
     },
