@@ -12,17 +12,12 @@
     <div class="dashboard_food_area">
 
       <div class="food-item-card">
-        <app-food-item></app-food-item>
-        <app-food-item></app-food-item>
-        <app-food-item></app-food-item>
-        <app-food-item></app-food-item>
-        <app-food-item></app-food-item>
-        <app-food-item></app-food-item>
-      </div>
+    
       
-
-
-
+      <app-food-item 
+        *ngFor="let item of foodItemList" [foodItem]="item"></app-food-item>
+    
+    </div>
 
     </div>
   </div>
